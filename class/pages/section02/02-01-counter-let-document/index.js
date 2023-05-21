@@ -4,12 +4,12 @@ export default function CounterLetDocumnetPage() {
 
     function onClickCountUp() {
         const count = Number(document.getElementById("qqq").innerText) + 1     
-        document.getElementById("qqq").innerText = count + 1;
+        document.getElementById("qqq").innerText = count;
     }
 
     function onClickCountDown() {
         const count = Number(document.getElementById("qqq").innerText) - 1;
-        document.getElementById("qqq").innerText = count - 1;
+        document.getElementById("qqq").innerText = count;
     }
 
     return (
