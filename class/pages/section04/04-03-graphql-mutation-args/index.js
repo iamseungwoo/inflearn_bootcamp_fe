@@ -1,7 +1,7 @@
 import { useMutation, gql } from "@apollo/client"
 
 const graphqlSet = gql`
-    mutation createBoard(writer: String, title: String, contents: String) {
+    mutation createBoard($writer: String, $title: String, $contents: String) {
         createBoard(writer: $writer, title: $title, contents: $contents)
     }
 `
