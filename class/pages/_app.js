@@ -1,4 +1,5 @@
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
+import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
     // graphql setting
